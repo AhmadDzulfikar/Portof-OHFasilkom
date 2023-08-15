@@ -6,6 +6,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 import { useEffect } from "react"
+import SocialLinks from "./components/SocialLinks";
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,8 @@ function App() {
     <div>
     <Navigation /> 
     <Home />
+
+    <SocialLinks />
     </div>
   )
 }

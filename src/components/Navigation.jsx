@@ -26,22 +26,22 @@ const Navigation = () => {
             link: 'contact'
         },
     ];
-  return (
-    <div className="flex justify-between items-center w-full h-20
-    px-4 text-black bg-gray fixed">
-        <div>
-            <div 
-            className="text-gradient font-secondary"
-            data-aos="fade-right"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="500"
-            data-aos-delay="0"
-            >
-                <h1 className="text-[30px] leading-none font-bold">
-                    DELFTECH
-                </h1>
+    return (
+        <div className="flex justify-between items-center w-full h-20
+        px-4 text-black bg-gray fixed">
+            <div>
+                <div 
+                className="text-gradient font-secondary"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="500"
+                data-aos-delay="0"
+                >
+                    <h1 className="text-[30px] leading-none font-bold">
+                        DELFTECH
+                    </h1>
+                </div>
             </div>
-        </div>
 
         <ul className="hidden md:flex">
         {links.map(({id, link}) => (

@@ -1,5 +1,7 @@
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
+import Tentang from "./components/Tentang";
+
 
 
 import AOS from "aos"
@@ -16,6 +18,7 @@ function App() {
     <div>
     <Navigation /> 
     <Home />
+    <Tentang />
 
     <SocialLinks />
     </div>

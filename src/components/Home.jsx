@@ -4,7 +4,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md'
 
 const Home = () => {
   return (
-    <div name='home' className='h-screen w-full bg-gradient-to-b from-white via-white to-gray-500'>
+    <div name='home' className='h-screen w-full bg-gradient-to-b from-white via-white to-gray-300'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
 
@@ -18,8 +18,8 @@ const Home = () => {
                 <h5 className='text-4xl sm:text-7xl font-bold'>
                     Ahmad Dzulfikar As Shavy
                 </h5>
-                <p className='text-4xl sm:text-1xl pt-4 max-w-md'>
-                    - Software Engginer
+                <p className='text-3xl sm:text-1xl pt-4 max-w-md'>
+                    - Software Engineer
                 </p>
                 <p className='text-gray-500 py-4 max-w-md'>
                     I'm software engginer from Jakarta,I'm a software engineer from Jakarta, I have 3 years experience, 
@@ -27,6 +27,13 @@ const Home = () => {
                 </p>
                 </div>
 
+            <div 
+                className="text-gradient font-secondary"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="500"
+                data-aos-delay="0"
+            >
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-600 to-cyan-800 cursor-pointer'>
                         Portfolio
@@ -37,6 +44,7 @@ const Home = () => {
                     </button>
                 </div>
             </div>
+        </div>
 
             <div>
             <div 

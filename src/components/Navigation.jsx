@@ -37,7 +37,7 @@ const Navigation = () => {
                 data-aos-duration="500"
                 data-aos-delay="0"
                 >
-                    <h1 className="text-[30px] leading-none font-bold">
+                    <h1 className="text-[20px] leading-none font-bold">
                         DELFTECH
                     </h1>
                 </div>

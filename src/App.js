@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Tentang from "./components/Tentang";
+import Portfolio1 from './components/Portfolio1'
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Navigation /> 
     <Home />
     <Tentang />
+    <Portfolio1 />
 
     <SocialLinks />
     </div>

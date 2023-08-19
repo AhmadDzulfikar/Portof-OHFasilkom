@@ -4,7 +4,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md'
 
 const Home = () => {
   return (
-    <div name='home' className='h-screen w-full bg-gradient-to-b from-white via-white to-gray-300'>
+    <div name='home' className='h-screen w-full bg-gradient-to-b from-white via-gray-100 to-gray-200'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
 
@@ -22,8 +22,7 @@ const Home = () => {
                     - Software Engineer
                 </p>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    I'm software engginer from Jakarta,I'm a software engineer from Jakarta, I have 3 years experience, 
-                    I like to use PHP framework laravel and MySQL and i'm very passionate and dedicated to my work.
+                    I'm software engginer from Jakarta, I have 3 years experience, and i'm very passionate and dedicated to my work.
                 </p>
                 </div>
 

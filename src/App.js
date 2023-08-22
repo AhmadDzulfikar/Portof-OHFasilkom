@@ -10,6 +10,7 @@ import "aos/dist/aos.css"
 
 import { useEffect } from "react"
 import SocialLinks from "./components/SocialLinks";
+import Experience from "./components/Experience";
 
 function App() {
   useEffect(() => {
@@ -21,7 +22,8 @@ function App() {
     <Home />
     <Tentang />
     <Portfolio1 />
-
+    <Experience />
+    
     <SocialLinks />
     </div>
   )

@@ -1,9 +1,9 @@
 import React from 'react'
-import satu from '../assets/portofolio/satu.png'
-import dua from '../assets/portofolio/dua.png'
-import tiga from '../assets/portofolio/tiga.png'
-import empat from '../assets/portofolio/empat.png'
-import lima from '../assets/portofolio/lima.png'
+import wildan from '../assets/portofolio/wildan.png'
+import klorofil from '../assets/portofolio/klorofil.png'
+import inventory_web from '../assets/portofolio/inventory_web.png'
+import kalkulator from '../assets/portofolio/kalkulator.png'
+import perpuz from '../assets/portofolio/perpuz.png'
 import enam from '../assets/portofolio/enam.png'
 
 
@@ -13,23 +13,23 @@ const Portfolio1 = () => {
     const portofolios = [
         {
             id: 1,
-            src: satu
+            src: wildan
         },
         {
             id: 2,
-            src: dua
+            src: klorofil
         },
         {
             id: 3,
-            src: tiga
+            src: inventory_web
         },
         {
             id: 4,
-            src: empat
+            src: kalkulator
         },
         {
             id: 5,
-            src: lima
+            src: perpuz
         },
         {
             id: 6,
@@ -39,13 +39,29 @@ const Portfolio1 = () => {
   return (
     <div name='portfolio' className="bg-gradient-to-b from-white to-gray-300 w-full text-black md:h-screen"
     >
+    
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div 
+                    className="text-gradient font-secondary"
+                    data-aos="fade-up"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="500"
+                    data-aos-delay="0"
+                >
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-black'>Portfolio</p>
                 <p className='py-5'>Check out this amazing project here!!!!</p>
             </div>
+        </div>
 
 
+        <div 
+                    className="text-gradient font-secondary"
+                    data-aos="fade-up"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="500"
+                    data-aos-delay="0"
+                >
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 
             px-12 sm:px-0'>
                 {portofolios.map(({id, src}) => (
@@ -69,6 +85,7 @@ const Portfolio1 = () => {
                         </div>
                     </div>
                 ))}
+            </div>
             </div>
         </div>
     </div>

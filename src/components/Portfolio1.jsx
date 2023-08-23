@@ -4,7 +4,7 @@ import klorofil from '../assets/portofolio/klorofil.png'
 import inventory_web from '../assets/portofolio/inventory_web.png'
 import kalkulator from '../assets/portofolio/kalkulator.png'
 import perpuz from '../assets/portofolio/perpuz.png'
-import enam from '../assets/portofolio/enam.png'
+// import enam from '../assets/portofolio/enam.png'
 
 
 
@@ -30,10 +30,6 @@ const Portfolio1 = () => {
         {
             id: 5,
             src: perpuz
-        },
-        {
-            id: 6,
-            src: enam
         },
     ]
   return (

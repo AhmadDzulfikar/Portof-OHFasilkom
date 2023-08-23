@@ -50,7 +50,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: '/Ahmad Dzulfikar As Shavyy.pdf',
             style: 'rounded-br-md',
             download: true,
         },

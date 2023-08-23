@@ -2,8 +2,10 @@ import React from 'react'
 
 const Tentang = () => {
     return (
-        <div name="about" className='w-full h-screen bg-gradient-to-b
-        from-gray-200 to-white  text-gray-700'>
+        <div name="about" 
+        className='w-full h-screen bg-gradient-to-b
+        from-gray-200 to-white  text-gray-700'
+        >
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div 
                     className="text-gradient font-secondary"

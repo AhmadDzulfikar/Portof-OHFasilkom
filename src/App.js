@@ -11,6 +11,7 @@ import "aos/dist/aos.css"
 import { useEffect } from "react"
 import SocialLinks from "./components/SocialLinks";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
     <Tentang />
     <Portfolio1 />
     <Experience />
+    <Contact />
     
     <SocialLinks />
     </div>

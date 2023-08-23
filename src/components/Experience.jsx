@@ -6,8 +6,8 @@ import javascript from '../assets/portofolio/javascript.png'
 import python from '../assets/portofolio/python.png'
 import laravel from '../assets/portofolio/laravel.png'
 import myadmin from '../assets/portofolio/myadmin.png'
-import perpuz from '../assets/portofolio/perpuz.png'
-import wildan from '../assets/portofolio/wildan.png'
+import github from '../assets/portofolio/github.png'
+// import wildan from '../assets/portofolio/wildan.png'
 
 
 const Experience = () => {
@@ -49,12 +49,12 @@ const Experience = () => {
             title: 'MyAdmin',
             style: 'shadow-orange-300'
         },
-        // {
-        //     id: 7,
-        //     src: perpuz,
-        //     title: 'PERPUZ',
-        //     style: 'shadow-pink-500'
-        // },
+        {
+            id: 7,
+            src: github,
+            title: 'GITHUB',
+            style: 'shadow-black'
+        },
         // {
         //     id: 8,
         //     src: wildan,

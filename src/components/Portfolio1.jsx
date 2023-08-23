@@ -37,7 +37,7 @@ const Portfolio1 = () => {
         },
     ]
   return (
-    <div name='portfolio' className="bg-gradient-to-b from-white to-gray-300 w-full text-black md:h-screen"
+    <div name='portfolio' className="bg-gradient-to-b from-white to-gray-300 w-full text-gray-700 md:h-screen"
     >
     
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -49,7 +49,7 @@ const Portfolio1 = () => {
                     data-aos-delay="0"
                 >
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-black'>Portfolio</p>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-700'>Portfolio</p>
                 <p className='py-5'>Check out this amazing project here!!!!</p>
             </div>
         </div>

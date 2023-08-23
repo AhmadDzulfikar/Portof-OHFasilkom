@@ -15,10 +15,10 @@ const Home = () => {
                 data-aos-duration="500"
                 data-aos-delay="0"
             >
-                <h5 className='text-4xl sm:text-7xl font-bold'>
+                <h5 className='text-4xl sm:text-7xl font-bold text-gray-700'>
                     Ahmad Dzulfikar As Shavy
                 </h5>
-                <p className='text-3xl sm:text-1xl pt-4 max-w-md'>
+                <p className='text-3xl sm:text-1xl pt-4 max-w-md text-gray-700'>
                     - Software Engineer
                 </p>
                 <p className='text-gray-500 py-4 max-w-md'>
